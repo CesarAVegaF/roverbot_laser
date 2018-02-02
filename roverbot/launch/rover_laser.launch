@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="roverbot" type="talkerLaser"
+          name="talkerLaser" />
+
+    <node pkg="roverbot" type="listenerLaser"
+          name="listenerLaser" />
+</launch>
